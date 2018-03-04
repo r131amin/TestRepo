@@ -4,7 +4,7 @@ from Emp_Window import *
 class Open_Window:
     def display_Form(self,choosenform):
         root = Tk()
-        root.title(choosenform+" Window ")
+        root.title(choosenform+"  Second Window ")
         labelframe = LabelFrame(root, text=choosenform+" Data ")
         labelframe.pack(fill="both", expand="yes")
 
